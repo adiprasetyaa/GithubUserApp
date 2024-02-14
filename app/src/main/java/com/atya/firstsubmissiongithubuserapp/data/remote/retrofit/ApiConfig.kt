@@ -1,5 +1,6 @@
 package com.atya.firstsubmissiongithubuserapp.data.remote.retrofit
 
+import com.atya.firstsubmissiongithubuserapp.BuildConfig
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -14,7 +15,7 @@ class ApiConfig {
             val authInterceptor = Interceptor { chain ->
                 val req = chain.request()
                 val requestHeaders = req.newBuilder()
-                    .addHeader("Authorization", "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")
+                    .addHeader("Authorization", BuildConfig.GITHUB_TOKEN)
                     .build()
                 chain.proceed(requestHeaders)
             }

@@ -16,10 +16,11 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-//      buildConfigField("String", "API_KEY", "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")
+        buildConfigField("String", "GITHUB_TOKEN", "\"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\"")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+
 
     buildTypes {
         release {
@@ -41,6 +42,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 
