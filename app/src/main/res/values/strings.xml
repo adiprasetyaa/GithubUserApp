@@ -1,6 +1,6 @@
 <resources>
     <string name="main_app_name">Github App</string>
-    <string name="app_name">nama aplikasi</string>
+    <string name="app_name">Github App</string>
     <string name="detail_user">Detail User</string>
     <string name="username">Username</string>
     <string name="searchbar_hint">Masukkan Username</string>
