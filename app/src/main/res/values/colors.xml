@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#0E0C0C</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="navy">#132043</color>
+    <color name="blue">#1F4172</color>
+    <color name="peach">#F1B4BB</color>
+    <color name="peach_light">#FDF0F0</color>
+    <color name="grey">#F0F0F0</color>
+    <color name="navy_warm">#4F709C</color>
+    <color name="cream">#E5D283</color>
+
+</resources>
